@@ -1,0 +1,28 @@
+
+/*отключено*/
+/*другие видео об ... в низу при просмотре*/
+.yt-simple-endpoint{
+	display: none;
+}
+
+/*Все поле скроллбара.*/
+div#content::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background-color: #181818;
+}
+/*Кнопки скрола вверх и вниз (зачастую имеет иконки в виде стрелок).*/
+div#content::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	display: none;
+}/*
+Угол на скроллбаре, на котором как правило пересекаются вертикальный и горизонтальный скроллбар.*/
+div#content::-webkit-scrollbar-corner {
+	background-color: #181818;
+}
+/*Сам ползунок.*/
+div#content::-webkit-scrollbar-thumb {
+	background-color: #fff;
+	border-radius: 4px;
+}

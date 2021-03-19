@@ -1,0 +1,17 @@
+/*просмотр во весь экран*/
+.own-mainbox.catalog_container.catalog_item{
+	max-width: 1500px;
+	background-color: #00000000;
+}
+/*убрать что не работает почему то не спрашивай просто да*/
+.watch_together{
+	display: none;
+}
+/*детали которые чуть дальше*/
+.catalog_item__main_info{
+	margin-top: 20px;
+}
+/*отключение поддержки и развитие проекта*/
+.{
+	display: none;
+}

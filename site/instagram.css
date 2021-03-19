@@ -1,0 +1,29 @@
+/*редактировано*/
+/*изменен фон страницы*/
+
+/*закругления*/
+/*главная страница*/
+.zGtbP.IPQK5.VideM{
+	border-radius: 20px;
+}
+/*посты*/
+._8Rm4L.M9sTE.L_LMM.SgTZ1.ePUX4{
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+/*сообщение*/
+.pV7Qt._6Rvw2.Igw0E.IwRSH.YBx95.ybXk5._4EzTm.i0EQd{
+	border-radius: 20px;
+}
+
+
+/*отключино*/
+/*главная - отключение рекомендации для вас*/
+._8UZ6e{
+	display: none;
+}
+/*главная - отключение © INSTAGRAM и прочее*/
+.SkY6J{
+	display: none;
+}

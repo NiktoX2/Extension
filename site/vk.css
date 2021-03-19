@@ -1,0 +1,56 @@
+/*отключено*/
+/*истории*/
+.page_block.stories_feed_wrap.clear_fix.stories_feed_with_thumb{
+	display: none;
+}
+/*сообщества для вас*/
+.page_block.feed_groups_recomm{
+	display: none;
+}
+/*правый нижний*/
+.chat_onl_inner{
+	display: none;
+}
+
+
+/*округление*/
+/*новости*/
+/*что у вас нового*/
+.wall_module.page_block.feed_post_field_wrap{
+	border-radius: 20px;
+}
+/*вторая часть*/
+.submit_post_field.dark.submit_post_inited.zoom_text{
+	border-radius: 20px;
+}
+/*моя*/
+/*аватар*/
+.page_block.page_photo.ProfileActions{
+	border-radius: 20px;
+}
+/**/
+.page_block{border-radius: 20px;}[div] .page_block{border-radius: 4px;}[div]
+
+
+/*изменение скрола*/
+/*Все поле скроллбара.*/
+.new_header_design::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background-color: #fafafa;
+}
+/*Кнопки скрола вверх и вниз (зачастую имеет иконки в виде стрелок).*/
+.new_header_design::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	display: none;
+}/*
+Угол на скроллбаре, на котором как правило пересекаются вертикальный и горизонтальный скроллбар.*/
+.new_header_design::-webkit-scrollbar-corner {
+	background-color: #fafafa;
+}
+/*Сам ползунок.*/
+.new_header_design::-webkit-scrollbar-thumb {
+	background-color: #000;
+	border-radius: 4px;
+}

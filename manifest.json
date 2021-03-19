@@ -1,0 +1,49 @@
+{
+	"manifest_version": 2,
+	"name": "ExtensionsByNiktoX2",
+	"version": "1.0",
+
+	"description": "Изменение/редактирование сайтов от NiktoX2",
+
+	"content_scripts": [{
+		"matches": ["http://*.vk.com/*","https://*.vk.com/*"],
+		"css": ["site/vk.css","fix/vkstyles.css"],
+		"run_at": "document_end"
+	},
+	{
+		"matches": ["http://*.curseforge.com/*","https://*.curseforge.com/*"],
+		"css": ["site/curseforge.css","add/scrollbar-white-black.css"],
+		"js": ["lang/lang-ru-curseforge.js"],
+		"run_at": "document_end"
+	},
+	{
+		"matches": ["http://*.coub.com/*","https://*.coub.com/*"],
+		"css": ["site/coub.css","add/scrollbar-black-white.css"],
+		"js": ["lang/lang-ru-coub.js"],
+		"run_at": "document_end"
+	},
+	{
+		"matches": ["http://*.instagram.com/*","https://*.instagram.com/*"],
+		"css": ["site/instagram.css","add/scrollbar-white-black.css"],
+		"run_at": "document_end"
+	},
+	{
+		"matches": ["http://*.youtube.com/*","https://*.youtube.com/*"],
+		"css": ["site/youtube.css"],
+		"run_at": "document_end"
+	},
+	{
+		"matches": ["http://*.notalone.tv/*","https://*.notalone.tv/*"],
+		"css": ["site/notalone.css"],
+		"run_at": "document_end"
+	},
+	{
+		"matches": ["http://*.github.com/*","https://*.github.com/*"],
+		"css": ["site/github.css","add/scrollbar-white-black.css"],
+		"js": ["lang/lang-ru-github.js"]
+	},
+	{
+		"matches": ["http://*.pinterest.ru/*","https://*.pinterest.ru/*"],
+		"css": ["add/scrollbar-white-black.css"]
+	}]
+}

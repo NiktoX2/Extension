@@ -1,0 +1,35 @@
+/*отключение*/
+/*отключени доп лайк*/
+.list.list--inline.coub__like-reactions{
+	display: none;
+}
+
+/*горячее*/
+/*Размести свой коуб на главной прямо сейчас*/
+.promote-banner.box--banner{
+	display: none;
+}
+
+/*избранные каналы*/
+.channels-block.channels-block--list.box--banner{
+	display: none;
+}
+/*истории*/
+.timeline-right-block{
+	display: none;
+}
+/*та фигня с боку тожде не надо*/
+.channel-coubs.-clear{
+	display: none;
+}
+/*лента которая мне нен нужнва*/
+.suggests-block-col{
+	display: none;
+}
+/*ленту видосиков по середине*/
+.coub.coub--timeline.coub--normal-card.active{
+	margin: auto;
+}
+.coub.coub--timeline.coub--normal-card{
+	margin: auto;
+}
