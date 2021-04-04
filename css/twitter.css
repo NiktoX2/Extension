@@ -2,7 +2,7 @@
 ::-webkit-scrollbar {
 	width: 8px;
 	height: 8px;
-	background-color: #0D0D0D;
+	background-color: #000;
 }
 /*Кнопки скрола вверх и вниз (зачастую имеет иконки в виде стрелок).*/
 ::-webkit-scrollbar-button {
@@ -12,7 +12,7 @@
 }/*
 Угол на скроллбаре, на котором как правило пересекаются вертикальный и горизонтальный скроллбар.*/
 ::-webkit-scrollbar-corner {
-	background-color: #0D0D0D;
+	background-color: #000;
 }
 /*Сам ползунок.*/
 ::-webkit-scrollbar-thumb {

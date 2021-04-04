@@ -49,16 +49,16 @@ document.execFor(
 		node.textContent = node.textContent.replace(/mins ago/g, 'минут назад');
 		node.textContent = node.textContent.replace(/min ago/g, 'минуту назад');
 		node.textContent = node.textContent.replace(/sec ago/g, 'секунд назад');
-node.textContent = node.textContent.replace(/Edit/g, 'Редактировать');
-node.textContent = node.textContent.replace(/Thanks/g, 'Спасибо');
-node.textContent = node.textContent.replace(/Save Changes/g, 'Сохранить изменения');
+		node.textContent = node.textContent.replace(/Edit/g, 'Редактировать');
+		node.textContent = node.textContent.replace(/Thanks/g, 'Спасибо');
+		node.textContent = node.textContent.replace(/Save Changes/g, 'Сохранить изменения');
 //вкладка
 //майн
 //вверх
 		node.textContent = node.textContent.replace(/Start Project/g, 'Начать проект');
 //верхняя кладки
 		node.textContent = node.textContent.replace(/All/g, 'Все');
-		node.textContent = node.textContent.replace(/Modpacks/g, 'Модпаков');
+		node.textContent = node.textContent.replace(/Modpacks/g, 'Модпаки');
 		node.textContent = node.textContent.replace(/Resource Packs/g, 'Пакеты ресурсов');
 		node.textContent = node.textContent.replace(/Worlds/g, 'Миры');
 //меню с боку
@@ -80,7 +80,17 @@ node.textContent = node.textContent.replace(/Save Changes/g, 'Сохранить
 //сами моды
 		node.textContent = node.textContent.replace(/Install/g, 'Установить');
 		node.textContent = node.textContent.replace(/Download/g, 'Скачать');
+//вкладка с модом
+//верх
+		node.textContent = node.textContent.replace(/days ago/g, 'дней назад');
+//сбоку
+		node.textContent = node.textContent.replace(/About Project/g, 'О проекте');
+		node.textContent = node.textContent.replace(/Project ID/g, 'ID проекта');
+		node.textContent = node.textContent.replace(/Created/g, 'Создан');
+		node.textContent = node.textContent.replace(/Updated/g, 'Обновлен');
+		node.textContent = node.textContent.replace(/License/g, 'Лицензия');
+		node.textContent = node.textContent.replace(/Follow/g, 'Подписаться');
 //прочее
-node.textContent = node.textContent.replace(/Got it/g, 'Понятно');
+		node.textContent = node.textContent.replace(/Got it/g, 'Понятно');
     }
 );

@@ -1,0 +1,51 @@
+/**/
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background-color: #fafafa;
+}
+/*Кнопки скрола вверх и вниз (зачастую имеет иконки в виде стрелок).*/
+::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	display: none;
+}/*
+Угол на скроллбаре, на котором как правило пересекаются вертикальный и горизонтальный скроллбар.*/
+::-webkit-scrollbar-corner {
+	background-color: #fafafa;
+}
+/*Сам ползунок.*/
+::-webkit-scrollbar-thumb {
+	background-color: #000;
+	border-radius: 4px;
+}
+
+/*редактировано*/
+/*изменен фон страницы*/
+
+/*закругления*/
+/*главная страница*/
+.zGtbP.IPQK5.VideM{
+	border-radius: 20px;
+}
+/*посты*/
+._8Rm4L.M9sTE.L_LMM.SgTZ1.ePUX4{
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+/*сообщение*/
+.pV7Qt._6Rvw2.Igw0E.IwRSH.YBx95.ybXk5._4EzTm.i0EQd{
+	border-radius: 20px;
+}
+
+
+/*отключино*/
+/*главная - отключение рекомендации для вас*/
+._8UZ6e{
+	display: none;
+}
+/*главная - отключение © INSTAGRAM и прочее*/
+.SkY6J{
+	display: none;
+}

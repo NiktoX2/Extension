@@ -1,0 +1,1 @@
+document.body.outerHTML = document.body.outerHTML.replace(/アボガド6/g, 'Авакадо');
