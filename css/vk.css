@@ -1,0 +1,35 @@
+.setting,
+.button-setting{
+    background-color: transparent;
+}
+
+.setting{
+    padding: 0;
+    position: fixed;
+    width: 49px;
+    height: 49px;
+    right: 0;
+    top: 0;
+    z-index: 200;
+}
+
+.button-setting{
+    width: 49px;
+    height: 49px;
+    padding: 0;
+    border-style: none;
+}
+
+.background-dark{
+    background-color: var(--dark);
+    color: var(--dark-text);
+}
+
+:root{
+    --dark: #121212;
+    --dark-text: #d4d4d4;
+    --light: #eeeeee;
+    --light-text: #383838;
+}
+
+/*css vk*/

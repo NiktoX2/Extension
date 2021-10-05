@@ -1,74 +1,37 @@
 {
 	"manifest_version": 3,
-	"name": "ExtensionsByNiktoX2",
+	"name": "Lost Summer Time Extensions",
+	"author": "NiktoX2",
 	"version": "1.0",
 
 	"description": "Изменение/редактирование сайтов от NiktoX2",
-
+	
 	"action": {
-		"default_title": "Вкл"
+		"default_popup": "popup/popup.html"
 	},
 
-	"background": {
-		"service_worker": "background.js"
-	},
-
-	"permissions": ["tabs"],
+	"permissions": ["activeTab"],
 
 	"content_scripts": [
-	{
-		"matches": ["http://*.curseforge.com/*","https://*.curseforge.com/*"],
-		"css": ["css/curseforge.css"],
-		"js": ["js/lang-ru.js"],
-		/*"js": ["lang/lang-ru-curseforge.js"],*/
-		"run_at": "document_end"
-	},
-	{
-		"matches": ["http://*.vk.com/*","https://*.vk.com/*"],
-		"js": ["js/off-vk-r.js"],
-		"run_at": "document_end"
-	},
-	{
-		"matches": ["http://*.coub.com/*","https://*.coub.com/*"],
-		"css": ["css/coub.css"],
-		"js": ["lang/lang-ru-coub.js"],
-		"run_at": "document_end"
-	},
-	{
-		"matches": ["http://*.instagram.com/*","https://*.instagram.com/*"],
-		"css": ["css/instagram.css"],
-		"run_at": "document_end"
-	},
-	{
-		"matches": ["http://*.youtube.com/*","https://*.youtube.com/*"],
-		"css": ["css/youtube.css"],
-		"run_at": "document_end"
-	},
-	{
-		"matches": ["http://*.notalone.tv/*","https://*.notalone.tv/*"],
-		"css": ["css/notalone.css"],
-		"run_at": "document_end"
-	},
-	{
-		"matches": ["http://*.github.com/*","https://*.github.com/*"],
-		"css": ["css/github.css"],
-		"js": ["lang/lang-ru-github.js"]
-	},
-	{
-		"matches": ["http://*.pinterest.ru/*","https://*.pinterest.ru/*"],
-		"css": ["css/pinterest.css"]
-	},
-	{
-		"matches": ["http://*.twitter.com/*","https://*.twitter.com/*"],
-		"css": ["css/twitter.css"]
-	},
-	{
-		"matches": ["http://*.store.steampowered.com//*","https://*.store.steampowered.com//*"],
-		"css": ["css/steam.css"]
-	},
-	{
-		"matches": ["http://*.avogado6.com/*","https://*.avogado6.com/*"],
-		"css": ["css/avogado6.css"],
-		"js": ["lang/lang-ru-avogado6.js"]
-	}]
+		{
+			"matches": ["*://*.vk.com/*"],
+			"css": ["css/vk.css"],
+			"js": ["js/vk.js"],
+			"run_at": "document_end"
+		},
+		{
+			"matches": ["*://*.instagram.com/*"],
+			"css": ["css/instagram.css"]
+		},
+		{
+			"matches": ["*://*.notalone.tv/*"],
+			"css": ["css/notalone.css"],
+			"js": ["js/notalone.js"],
+			"run_at": "document_end"
+		},
+		{
+			"matches": ["*://*.slmp.ru//*"],
+			"css": ["css/slmp.css"]
+		}
+	]
 }
